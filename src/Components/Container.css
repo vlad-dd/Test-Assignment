@@ -1,0 +1,61 @@
+.loader_block {
+    display: flex;
+    justify-content: center;
+}
+
+
+.loader {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.info {
+    cursor: pointer;
+}
+
+.arrow_block {
+    display: inline-block;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+    transform: rotate(-135deg);
+  }
+
+  .down {
+    transform: rotate(45deg);
+  }
+
+.pagination_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.description_block {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.add_block {
+  float: right;
+}
+
+.choice_buttons {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.choice_buttons > button {
+ padding: 15px;
+ margin: 15px;
+ border: 1px solid white;
+ border-radius: 10px;
+}
